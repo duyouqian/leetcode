@@ -1,7 +1,5 @@
 package com.boxcar.projects.leetcode;
 
-import java.util.List;
-
 /**
  * 给你一个链表数组，每个链表都已经按升序排列。
  *
