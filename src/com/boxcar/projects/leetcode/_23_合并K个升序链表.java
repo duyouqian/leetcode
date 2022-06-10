@@ -100,21 +100,4 @@ public class _23_合并K个升序链表 {
     public static void main(String[] args) {
 
     }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode() {
-        }
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 }

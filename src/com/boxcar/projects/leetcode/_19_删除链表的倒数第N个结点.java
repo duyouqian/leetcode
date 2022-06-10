@@ -55,23 +55,6 @@ public class _19_删除链表的倒数第N个结点 {
         print(removeNthFromEnd2(head.next, 2));
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode() {
-        }
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     private static ListNode addNode(ListNode node, int v) {
         ListNode newNode = new ListNode(v);
         node.next = newNode;
